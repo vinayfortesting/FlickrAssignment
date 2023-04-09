@@ -1,0 +1,5 @@
+[INFO ] 2023-04-08 23:11:36.566 [TestNG-tests-1] HomeScreen - Waiting for the search text field to appear
+[INFO ] 2023-04-08 23:11:36.682 [TestNG-tests-1] HomeScreen - Clearing the search text field
+[INFO ] 2023-04-08 23:11:38.500 [TestNG-tests-1] HomeScreen - Sending Kittensto search text field
+[INFO ] 2023-04-08 23:11:39.144 [TestNG-tests-1] HomeScreen - Searched for Kittensis successfull
+[INFO ] 2023-04-08 23:53:21.811 [TestNG-tests-1] HomeScreen - Waiting for the search text field to appear

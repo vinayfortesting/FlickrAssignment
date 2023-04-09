@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+    <listeners>
+        <listener class-name="listeners.TestListener" />
+    </listeners>
+
+    <test name="iOS">
+        <parameter name="platformName" value="iOS" />
+        <parameter name="udid" value="EAB592BE-26D1-4635-9A5C-3BCC56C711CC"/>
+        <parameter name="deviceName" value="iPhone 14 Pro Max"/>
+        <parameter name="testData" value="Kittens"/>
+       <classes>
+        <class name="tests.SearchTest"/>
+    </classes>
+    </test>
+</suite>
